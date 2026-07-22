@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-.gitingnore
+
 node_modules
 component.json
 README.md

@@ -6,33 +6,6 @@ import { Textarea } from "@/components/ui/textarea"
 
 
 
-// const[name, setName] = useState<string | null>(null)
-// const [email, SetEmail] = useState<string | null>(null)
-// // const[message, setMessage] = useState<string || null>(null)
-
-// const handleSubmit = async(event: React.FormEvent<HTMLFormElement>) => {
-//   event.preventDefault();
-
-//   if(!name || !email){
-//     return "All feeild are requer"
-//   }
-// }
-
-// const res = await fetch("http://localhost:3000/sing-up", {
-//   method: "POST",
-//   headers: {
-//     "Content-Type": "app;ication/json"
-//   },
-//   body: JSON.stringify({
-//     name,
-//     email,
-   
-//   })
-// });
-
-// const data = res.json;
-// console.log(data)
-
 
 
 function Contact() {
