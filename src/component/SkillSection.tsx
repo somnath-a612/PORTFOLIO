@@ -13,7 +13,13 @@ export default function SkillsSection() {
     <div className="w-full min-h-screen bg-black flex flex-col items-center py-20">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
         {skills.map((skill, index) => (
-          <SkillCard key={index} title={skill.title} icon={skill.icon} />
+          <SkillCard
+            key={index}
+            title={skill.title}
+            icon={skill.icon}
+            progress={skill.progress}
+            value={skill.value}
+          />
         ))}
       </div>
     </div>
@@ -22,7 +28,7 @@ export default function SkillsSection() {
 
 // <div className="px-10 mt-12 flex gap-8 flex-wrap">
 
-        Skill Card
+        
         <div
           className="group w-48 h-56 bg-[#0f1117] border border-gray-600 rounded-xl
           flex flex-col items-center justify-center transition-all duration-300
@@ -62,4 +68,4 @@ export default function SkillsSection() {
             <p className="text-center text-sm text-white mt-2">Expert</p>
           </div>
         </div> 
-      </div>
+      
